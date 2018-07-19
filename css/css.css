@@ -1,0 +1,87 @@
+l.css
+
+aside{
+ box-shadow:0px 0px 10px black;
+ float: left;
+ margin: 10px;
+ background: red;
+ max-width: 100%;
+ width: 300px;
+ 
+}
+h6{
+	position:center;
+  text-align:center;
+  margin-top:10px;
+  width:500px;
+ 
+}
+		
+
+#menu li ul {
+  display:none;
+position:absolute;
+
+}
+#menu li:hover > ul {
+  display:block	;
+  
+}
+#menu ul{
+margin:0;
+padding:0;
+line-height:35px;
+
+}
+#menu li{
+float:left;
+list-style:none;
+position:relative;
+text-align:center;
+width:270px;
+background-color:#00F0FF;
+
+}
+
+
+#menu li ul ul {
+  left:100%;
+  top:0px;
+
+}
+
+
+#menu li li{
+float:none;
+background-color:#819FF7;
+}
+#menu li li li{
+background-color:#FF0000;
+
+}
+#menu li li li li{
+background-color:#0000FF;
+}
+#menu li a{
+color:#0000FF;
+text-decoration:none;
+text-align:center;
+display:block;
+
+
+}
+
+#menu li a:hover{
+background-color:#FF0000;
+text-decoration:none;
+color:#FFFF00;
+border-bottom: 1px solid #eee;
+ -webkit-transition: all 0.4s ease-in-out;
+ -o-transition: all 0.4s ease-in-out;
+ transition: all 0.4s ease-in-out;
+}
+ul.menu li:hover a
+{
+ padding-left: 30px;
+ border-left: 4px solid #0088FF;
+}\
